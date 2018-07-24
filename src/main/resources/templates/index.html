@@ -1,0 +1,17 @@
+#include('header.html', {title : '首页' , index : true})
+<body>
+<div id="app">
+相同内容仿照以下方式处理：
+    <ul>
+        <li v-for="n in 9">
+            这是案例。
+        </li>
+    </ul>
+</div>
+<script>
+    new Vue({
+        el : '#app'
+    })
+</script>
+</body>
+#include('footer.html')
