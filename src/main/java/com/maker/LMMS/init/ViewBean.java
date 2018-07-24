@@ -8,7 +8,7 @@ import com.blade.mvc.view.template.JetbrickTemplateEngine;
 /**
  * @author : zimu
  * @Date: 2018/7/24 10:33
- * @description :
+ * @description : 初始化
  */
 @Bean
 public class ViewBean implements BeanProcessor {
