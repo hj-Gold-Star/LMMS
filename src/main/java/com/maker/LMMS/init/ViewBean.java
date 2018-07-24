@@ -14,7 +14,7 @@ import com.blade.mvc.view.template.JetbrickTemplateEngine;
 public class ViewBean implements BeanProcessor {
     @Override
     public void processor(Blade blade) {
-        JetbrickTemplateEngine template = new JetbrickTemplateEngine();
+        JetbrickTemplateEngine template = new JetbrickTemplateEngine();  //创建模板引擎实例
         blade.templateEngine(template);
     }
 }

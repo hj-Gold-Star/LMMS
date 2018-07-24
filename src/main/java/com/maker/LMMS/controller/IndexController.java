@@ -9,7 +9,7 @@ import com.blade.mvc.http.Response;
 /**
  * @author : zimu
  * @Date: 2018/7/24 09:47
- * @description :
+ * @description :  首页请求路由
  */
 @Bean
 @Path
