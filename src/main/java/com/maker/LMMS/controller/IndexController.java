@@ -22,4 +22,8 @@ public class IndexController {
     public void index(Response response){
         response.text("hello world!");
     }
+    @GetRoute("/login")
+    public String login(){
+        return "login.html";
+    }
 }
